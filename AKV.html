@@ -54,10 +54,10 @@
 </div>
 <div class="column">
 <img src="AKV.jpeg" style="width:100%">
-</div>
-</div>
+       </div>
+     </div>     
   </div>
-    <script>
+ <script>
         $("#submit-form").submit((e)=>{
             e.preventDefault()
             $.ajax({
@@ -67,8 +67,7 @@
                 success:function (response){
                     alert("Form submitted successfully")
                     window.location.reload()
-                    //window.location.href"="https://google.com
-                   <img src="AKV.jpeg" style="width:100%">
+                    //window.location.href="https://google.com"
                 },
                 error:function (err){
                     alert("Something Error")
